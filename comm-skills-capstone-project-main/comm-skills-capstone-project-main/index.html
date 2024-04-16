@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Portfolio </title>
+  <link rel="stylesheet" type="text/css" href="static/style.css">
+  <link rel="stylesheet" type="text/css" href="static/mediaqueries.css">
+</head>
+<body>
+<nav id="desktop-nav">
+      <div class="logo">Korir Kibet Jovan</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Capstone Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Korir Kibet Jovan</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="static/images/Comm Skill 1.jpg" alt="Mbugua Douglas profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Korir Kibet Jovan</h1>
+        <p class="section__text__p2">A Geotechnical and Transportation Engineer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('static/comSkills/my_cv.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="static/images/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/mbugua-douglas-1b7917264/'"
+          />
+          <img
+            src="static/images/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/mbuguadouglas'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="static/images/Comm Skill 2.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="static/images/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2+ years <br />Traffic, transportation, geotechnical Analysis</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="static/images/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. Bachelors Degree in Civil and construction Engineering</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              When I'm not on the diamond, I'm diving into the world of construction and civil engineering, particularly the field of geotechnical and transportation. I have a keen interest in transportation and geotechnical engineering, with a determination of using my skill in this field to make better and well-informed decisions when it comes to civil construction works. I am a fitness enthusiast by nature, I bring the same dedication to both physical and mental agility. Whether it's geotechnical and traffic analysis or crushing a curveball, I thrive in challenges.
+				
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="static/images/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Traffic, Transportation, Geotechnical Analysis</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="static/images/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Geotechnical Analysis</h3>
+                  <p>Experience</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="static/images/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Civil Engineering Softwares like Civil 3D and Autocad</h3>
+                  <p>Experience</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="static/images/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Traffic Analysis</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="static/images/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Human Resources Management</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="static/images/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Relational Databases</h3>
+                  <p>Experience</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="static/images/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Labaratory Data Analysis</h3>
+                  <p>Experience</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Tools Used</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="static/images/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>AutoCad</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="static/images/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Civil 3D</h3>
+                  <p>Experience</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="static/images/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Archicad</h3>
+                  <p>Experience</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="static/images/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Revit</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="static/images/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Bluebeam</h3>
+                  <p>Experience</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="static/images/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Communication Skills</p>
+      <h1 class="title">Essays</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              
+            </div>
+            <h2 class="experience-sub-title project-title">1.Resume Assignment</h2>
+            <p>An up-to-date resume in English, Kiswahili and an Kalenjin language</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2"
+                onclick="window.open('static/comSkills/Jovan English CV.docx')"
+              >
+                English CV
+              </button>
+              <button
+                class="btn btn-color-2"
+                onclick="window.open('static/comSkills/Jovan Kiswahili CV.docx')"
+              >
+                Kiswahili CV
+              </button>
+              <button
+                class="btn btn-color-2"
+                onclick="window.open('static/comSkills/Jovan Kalee CV.docx')"
+              >
+                Kalenjin CV
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="static/comSkills/Jovan Kalee CV.docx"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">2.An Autobiographical Essay</h2>
+            <p>an autobiographical essay of not less than 20 pages</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2"
+                onclick="window.open('static/comSkills/Jovan Autobiography.docx')"
+              >
+                Download Essay
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">3.Powerpoint Presentation of my Autobiography</h2>
+            <p>a powerpoint presentation on my autobiographical essay</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2"
+                onclick="window.open('static/comSkills/Autobiographical Essay Powerpoint Presentation.pptx')"
+              >
+                Download Powerpoint
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+
+
+            <h2 class="experience-sub-title project-title">4.Photo Essay on Issue of Poverty in Africa</h2>
+            <p>I defined poverty, causes, impacts and solution providing photographic evidences</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2"
+                onclick="window.open('static/comSkills/Photographic Essay on Issue Of Poverty in Africa.pptx')"
+              >
+                Download Powerpoint
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">5.Powerpoint presentation on Innovation in civil Engineering</h2>
+            <p>I discussed soil stabilization as an innovation in Civil Engineering field</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2"
+                onclick="window.open('static/comSkills/Soil Stabilization Powerpoint Presentation.pptx')"
+              >
+                Download Powerpoint
+              </button>
+            </div>
+          </div>
+            <h2 class="experience-sub-title project-title">6.Powerpoint presentation on aspect of Child naming after the deceased in African culture</h2>
+            <p>I discussed naming of children after deceased in Afrcan communities and its importances and impact</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2"
+                onclick="window.open('static/Aspect of African Culture.pptx')"
+              >
+                Download Powerpoint
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title"> <a href="https://youtube.com/watch?v=SJcNW-YVGb8&si=ibNhRg0G5HNdfi7S" target="_blank">7.Video on Innovation in Civil Engineering </a></h2>
+            <p>Above is a embedded video link on an innovation in Civil Engineering. I discussed Soil Stabilization</p>
+            <button
+                class="btn btn-color-2"
+                onclick="window.open('static/comSkills/E024-01-2289-2020 ABSTRACT ON SOIL STABILIZATION INVENTION IN CIVIL ENGINEEERING.docx')"
+              >
+                Download Abstract
+              </button>
+          </div>
+          
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title"><a href="https://youtu.be/FQAaP6KPfYg?si=sVND93p62k6fzI4Q" target="_blank"> 8.Video on Challenges facing modern society and solutions</a> </h2>
+            <p>I discussed some challenges facing modern society and their solutions </p>
+            <button
+            class="btn btn-color-2"
+            onclick="window.open('static/comSkills/E024-01-2289-2020 ABSTRACT ON CHALLENGES FACING MODERN SOCIETY AND THE POSSIBLE SOLUTIONS.docx')"
+          >
+            Download Abstract
+          </button>
+          </div>
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title"><a href="https://youtube.com/watch?v=1Fg9KNzQbqw&si=VBnEx9y214YVXO_f" target="_blank"> 9.Video on the aspect of naming children after the deceased in African culture and importance of gender roles in African Society</a> </h2>
+            <p>I discussed aspect of naming children after deceased and the importance of gender roles </p>
+            <button
+            class="btn btn-color-2"
+            onclick="window.open('static/comSkills/E024-01-2289-2020 ABSTRACT ON ASPECT OF NAMING CHILDREN AFTER THE DEATH  IN AFRICAN CULTURE AND IT.docx')"
+          >
+            Download Abstract
+          </button>
+          </div>
+      </div>
+      <img
+        src="static/images/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="static/images/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:mbuguadouglas17@gmail.com">jovakorir002@@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="static/images/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/mbugua-douglas-1b7917264/">Telephone</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+     <!--  <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav> -->
+      <p>Copyright &#169; 2024 Korir Kibet Jovan. All Rights Reserved.</p>
+    </footer>
+
+<script type="text/javascript" src="{{url_for('static', filename='script.js')}}"></script>
+</body>
+</html>
